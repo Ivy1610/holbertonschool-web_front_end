@@ -1,0 +1,23 @@
+/* Targeting the root element, create 2 custom font-family properties*/
+:root {
+    --color-primary: #d73953;
+    --color-black:#090909;
+    --color-white: #ffffff;
+    --color-light-grey: #353535;
+    --text-color: var(--color-black);
+    --font-family-base: 'hevetica Neue', Helvetica, Arial, sans-serif;
+    --font-family-title: 'hevetica Neue', Helvetica, Arial, sans-serif;
+}
+body, a {
+    color: var(--text-color);
+    font-family: var(--front-family-base);
+}
+.section-tagline, .card-category {
+    color: var(--color-primary);
+}
+html {
+    scroll-behavior: smooth;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-title);
+}
