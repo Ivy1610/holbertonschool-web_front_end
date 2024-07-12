@@ -59,6 +59,21 @@ body,
 a {
     color: var(--text-color);
 }
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    font-style: italic;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    background: var(--color-light-grey);
+}
 
 h1,
 h2,
@@ -141,22 +156,6 @@ h6 {
 
 .card-category {
     color: var(--color-primary);
-}
-
-a {
-    text-decoration: none;
-}
-
-a:visited {
-    font-style: italic;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-a:active {
-    background: var(--color-light-grey);
 }
 
 .footer {
