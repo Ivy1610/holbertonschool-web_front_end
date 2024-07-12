@@ -1,25 +1,13 @@
-/* scrolling is triggered on the html element itself */
 html {
     scroll-behavior: smooth;
 }
-
-/* for body set the foreground color value*/
-body {
+body, a {
     color: #161616;
 }
-
-/* for all anchor elements set the background color value */
-a {
-    color: #161616;
-}
-
-/* All elements with the class have their display to none */
 .visually-hidden {
     display: none;
 }
-.card-category {
+.card-category, .section-tagline{
     color: #D73953;
 }
-.section-tagline {
-    color: #D73953;
-}
+
