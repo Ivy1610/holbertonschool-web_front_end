@@ -46,14 +46,14 @@ body, a {
 .visually-hidden {
     display: none;
 }
+.section-header {
+    text-align: var(--color-primary);
+}
 .section-tagline {
     color: var(--color-primary);
 }
 .card-category {
     color: var(--color-primary);
-}
-.section-header {
-    text-align: var(--color-primary);
 }
 a {
     text-decoration: none;
