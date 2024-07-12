@@ -1,0 +1,4 @@
+/* scrolling is triggered on the html element itself */
+html {
+    scroll-behavior: smooth;
+}
