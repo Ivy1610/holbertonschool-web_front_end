@@ -2,12 +2,18 @@
 html {
     scroll-behavior: smooth;
 }
+
+/* for body set the foreground color value*/
 body {
     color: #161616;
 }
+
+/* for all anchor elements set the background color value */
 a {
     color: #161616;
 }
+
+/* All elements with the class have their display to none */
 .visually-hidden {
     display: none;
 }
