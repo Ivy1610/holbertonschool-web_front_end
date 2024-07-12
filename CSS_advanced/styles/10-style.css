@@ -1,7 +1,7 @@
 /* task: Targeting the root element, create 2 custom font-family properties*/
 :root {
     --color-primary: #d73953;
-    --color-black:#090909;
+    --color-black: #090909;
     --color-white: #ffffff;
     --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
@@ -20,6 +20,7 @@
     --line-height-big: 1.8;
     --section-feader-align: center;
 }
+
 html {
     scroll-behavior: smooth;
     font-size: 62.5%;
@@ -32,29 +33,43 @@ body {
     font-weight: var(--font-weight-regular);
     line-height: var(--line-height-base);
 }
-body, a {
+
+body,
+a {
     color: var(--text-color);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
 }
-body, a {
+
+body,
+a {
     color: var(--text-color);
 }
-.visually-hidden {
-    display: none;
-}
+
 .section-header {
     text-align: var(--color-primary);
 }
+
+.visually-hidden {
+    display: none;
+}
+
 .section-tagline {
     color: var(--color-primary);
 }
+
 .card-category {
     color: var(--color-primary);
 }
+
 a {
     text-decoration: none;
 }
