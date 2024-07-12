@@ -107,6 +107,7 @@ a:active {
     font-size: var(--button-font-size);
     color: var(--button-color);
     text-decoration: var(--button-text-decoration);
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
 
 }
 .button:hover {
@@ -159,6 +160,7 @@ h6 {
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
+    margin: var(--srection-tagline-margin);
 }
 
 .navbar-menu {
@@ -181,6 +183,8 @@ h6 {
 .nav .nav-link {
     display: block;
     padding: 0.5rem 1rem;
+    position: relative;
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
@@ -193,6 +197,7 @@ h6 {
     background-color: var(--color-white);
     width: 0;
     height: 0.2rem;
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 .nav .nav-item:hover .nav-link::before {
     background-color: var(--color-primary);
