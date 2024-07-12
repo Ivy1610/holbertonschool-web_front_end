@@ -8,10 +8,16 @@
 html {
     scroll-behavior: smooth;
 }
-body, a {
+body {
     color: var(--text-color);
 }
-.section-tagline, .card-category {
+a {
+    color: var(--text-color);
+}
+.section-tagline {
+    color: var(--color-primary);
+}
+.card-category {
     color: var(--color-primary);
 }
 .visually-hidden {
